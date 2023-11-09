@@ -55,7 +55,7 @@ setup(
     python_requires=">=3.8",
     install_requires=
         install_requires
-        + ["ctranslate2 git+https://github.com/OpenNMT/CTranslate2.git@23f744fa57ac42b6f10e72399930980ead37f0f8"],
+        + ["ctranslate2 @ git+https://github.com/OpenNMT/CTranslate2.git@23f744fa57ac42b6f10e72399930980ead37f0f8"],
     extras_require={
         "conversion": conversion_requires,
         "dev": [
