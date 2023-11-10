@@ -53,9 +53,7 @@ setup(
     ],
     keywords="openai whisper speech ctranslate2 inference quantization transformer",
     python_requires=">=3.8",
-    install_requires=
-        install_requires
-        + ["ctranslate2 @ git+https://github.com/OpenNMT/CTranslate2.git@23f744fa57ac42b6f10e72399930980ead37f0f8"],
+    install_requires=install_requires,
     extras_require={
         "conversion": conversion_requires,
         "dev": [
